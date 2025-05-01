@@ -26,6 +26,7 @@ def plot_cam(ax, t, r, rotation_fun=rot):
     ax.quiver(X, Y, Z, U, V, W, color=["red", "green", "blue"])
 
 
+#Visualize the multiple camera in 3D space
 def plot_cams(ts, rs, ponts3d=None, rotation_fun=rot):
     fig = plt.figure()
     plt.title("Camera")
