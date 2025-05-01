@@ -9,7 +9,7 @@ def rot(vec, r):
     vec = np.matmul(R, vec)
     return vec
 
-
+#Visualize the camera in 3D space
 def plot_cam(ax, t, r, rotation_fun=rot):
     x, y, z = t
 
