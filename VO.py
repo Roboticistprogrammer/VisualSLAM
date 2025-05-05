@@ -230,7 +230,7 @@ class VisualOdometry():
                                      np.linalg.norm(Q2.T[:-1] - Q2.T[1:], axis=-1))
             positives.append(total_sum + relative_scale)
             
-
+        #update
         # Decompose the Essential matrix using built in OpenCV function
         # Form the 4 possible transformation matrix T from R1, R2, and t
         # Create projection matrix using each T, and triangulate points hom_Q1
